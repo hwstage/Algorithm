@@ -5,7 +5,7 @@ for i in range(n):
 
 def main():
     ls.sort()
-    mn = 22000000001
+    mn = 2000000001
     en = 0
     for st in range(n):
         while(en < n and ls[en] - ls[st] < m):
